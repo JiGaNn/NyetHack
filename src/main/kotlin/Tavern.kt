@@ -21,12 +21,12 @@ private fun placeOrder(menuData: String) {
     println(toDragonSpeak("DRAGON'S BREATH: IT'S GOT WHAT ADVENTURES CRAVE"))
 }
 private fun toDragonSpeak(phrase: String) =
-    phrase.replace(Regex("[aeiou]")) {
-        when(it.value) {
+    phrase.replace(Regex("[aeiouAEIOU]")) {
+        when(it.value.lowercase()) {
             "a" -> "4"
             "e" -> "3"
             "i" -> "1"
-            "0" -> "0"
+            "o" -> "0"
             "u" -> "|_|"
             else -> it.value
         }
