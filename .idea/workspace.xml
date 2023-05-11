@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="769023cf-31fe-4e97-9cdb-ade28999289b" name="Changes" comment="kotlin string">
+    <list default="true" id="769023cf-31fe-4e97-9cdb-ade28999289b" name="Changes" comment="add Uppercase at the toDragonSpeak()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" afterDir="false" />
     </list>
@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683527235185</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add Uppercase at the toDragonSpeak()">
+      <created>1683527724484</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683527724484</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,6 +150,7 @@
     <MESSAGE value="kotlin null-safety" />
     <MESSAGE value="kotlin exceptions" />
     <MESSAGE value="kotlin string" />
-    <option name="LAST_COMMIT_MESSAGE" value="kotlin string" />
+    <MESSAGE value="add Uppercase at the toDragonSpeak()" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Uppercase at the toDragonSpeak()" />
   </component>
 </project>
