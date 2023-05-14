@@ -23,20 +23,7 @@ fun main() {
         println("The tavern master says: Yea, they're seated by the stew kettle.")
     else
         println("The tavern master says: Nay, they departed hours ago.")
-
     println()
-
-//    placeOrder("shandy,Dragon's Breath,5.91")
-
-//    println(patronList)
-//    patronList.apply {
-//        remove("Eli")
-//        add("Alex")
-//        add(0, "Alex")
-//    }.run(::println)
-//    val readOnlyPatronList = patronList.toList()
-//    patronList[0] = "Alexis"
-//    println(patronList)
 
     (0..9).forEach {
         val first = patronList.shuffled().first()
@@ -45,6 +32,35 @@ fun main() {
         uniquePatrons += name
     }
     println(uniquePatrons)
+
+    val menuDrinks = mutableListOf<String>()
+    val drinkTypes = mutableSetOf<String>()
+    menuList.forEach {
+        val (type, name, _) = it.split(",")
+        menuDrinks += name.lowercase().capitalize()
+        drinkTypes += type
+    }
+
+    var max = 0
+    menuDrinks.forEach {
+        val length = it.length
+        if (length > max)
+            max = length
+    }
+
+    println("\n\t\t\t~~ $TAVERN_NAME price list ~~")
+    drinkTypes.forEach {
+        println("\t\t\t\t\t\t$it")
+        menuList.forEachIndexed { index, drink ->
+            if(drink.contains(it)) {
+                val name = menuDrinks[index]
+                val price = drink.split(",").last()
+                var points = 30
+                points += (max - name.length - price.substring(1, price.indexOf('.')).length)
+                println("$name${".".repeat(points)}$price$")
+            }
+        }
+    }
 
     var orderCount = 0
     while (orderCount <= 9) {
