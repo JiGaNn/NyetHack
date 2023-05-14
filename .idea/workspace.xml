@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="769023cf-31fe-4e97-9cdb-ade28999289b" name="Changes" comment="add Uppercase at the toDragonSpeak()">
+    <list default="true" id="769023cf-31fe-4e97-9cdb-ade28999289b" name="Changes" comment="Coins, Int, Double..">
+      <change afterPath="$PROJECT_DIR$/data/tavern-menu-items.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" afterDir="false" />
     </list>
@@ -29,6 +30,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bf3c2848-ea27-4c8a-b3c6-7697da84902c" />
+        <option name="url" value="https://github.com/JiGaNn/NyetHack.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -140,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683527724484</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Coins, Int, Double..">
+      <created>1683781112215</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683781112215</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,6 +172,7 @@
     <MESSAGE value="kotlin exceptions" />
     <MESSAGE value="kotlin string" />
     <MESSAGE value="add Uppercase at the toDragonSpeak()" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Uppercase at the toDragonSpeak()" />
+    <MESSAGE value="Coins, Int, Double.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Coins, Int, Double.." />
   </component>
 </project>
