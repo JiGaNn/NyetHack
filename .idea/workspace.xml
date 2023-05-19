@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="769023cf-31fe-4e97-9cdb-ade28999289b" name="Changes" comment="Coins, Int, Double..">
-      <change afterPath="$PROJECT_DIR$/data/tavern-menu-items.txt" afterDir="false" />
+    <list default="true" id="769023cf-31fe-4e97-9cdb-ade28999289b" name="Changes" comment="Format menu output">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" afterDir="false" />
     </list>
@@ -31,11 +30,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -161,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683781112215</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="List, Set">
+      <created>1684040778665</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684040778665</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Format menu output">
+      <created>1684045833355</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684045833355</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,6 +186,8 @@
     <MESSAGE value="kotlin string" />
     <MESSAGE value="add Uppercase at the toDragonSpeak()" />
     <MESSAGE value="Coins, Int, Double.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Coins, Int, Double.." />
+    <MESSAGE value="List, Set" />
+    <MESSAGE value="Format menu output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Format menu output" />
   </component>
 </project>
