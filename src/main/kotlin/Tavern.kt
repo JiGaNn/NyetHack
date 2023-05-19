@@ -64,11 +64,24 @@ fun main() {
     println()
 
     var orderCount = 0
-    while (orderCount <= 2) {
+    while (orderCount <= 9) {
         placeOrder(uniquePatrons.shuffled().first(), menuList.shuffled().first())
         orderCount++
     }
     displayPatronBalances()
+    bouncer()
+}
+private fun bouncer() {
+    val deletePatrons = mutableListOf<String>()
+    patronGold.forEach { (patron, balance) ->
+        if (balance < 0)
+            deletePatrons += patron
+    }
+    uniquePatrons -= deletePatrons
+    patronGold -= deletePatrons
+    println("Hey, ${ deletePatrons.reduce { it, next -> "$it, $next"} }, get out of here! You're don't have money!")
+    println(uniquePatrons)
+    println(patronGold)
 }
 private fun performPurchase(price: Double, patronName: String) {
     val totalPurse = patronGold.getValue(patronName)
