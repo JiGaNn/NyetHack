@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="769023cf-31fe-4e97-9cdb-ade28999289b" name="Changes" comment="Add bouncer, that kicking out patrons without gold">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Player.kt" afterDir="false" />
+    <list default="true" id="769023cf-31fe-4e97-9cdb-ade28999289b" name="Changes" comment="Add class Player, refactor Game.kt&#10;get set for var, and get for val&#10;private set and more than..">
+      <change afterPath="$PROJECT_DIR$/data/towns.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,23 +67,31 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eugene\IdeaProjects\NyetHack\src\main\kotlin\com\bignerdranch\nyethack" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.bignerdranch.nyethack" />
+    </key>
+  </component>
   <component name="RunManager" selected="Kotlin.GameKt">
     <configuration name="GameKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GameKt" />
+      <option name="MAIN_CLASS_NAME" value="com.bignerdranch.nyethack.GameKt" />
       <module name="NyetHack.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SwordJugglerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwordJugglerKt" />
+      <option name="MAIN_CLASS_NAME" value="com.bignerdranch.nyethack.SwordJugglerKt" />
       <module name="NyetHack.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TavernKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TavernKt" />
+      <option name="MAIN_CLASS_NAME" value="com.bignerdranch.nyethack.TavernKt" />
       <module name="NyetHack.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684513929365</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add class Player, refactor Game.kt&#10;get set for var, and get for val&#10;private set and more than..">
+      <created>1684604094350</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684604094350</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,7 +221,8 @@
     <MESSAGE value="Format menu output" />
     <MESSAGE value="Map in kotlin. &quot;to&quot; as Pair()" />
     <MESSAGE value="Add bouncer, that kicking out patrons without gold" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add bouncer, that kicking out patrons without gold" />
+    <MESSAGE value="Add class Player, refactor Game.kt&#10;get set for var, and get for val&#10;private set and more than.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add class Player, refactor Game.kt&#10;get set for var, and get for val&#10;private set and more than.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
