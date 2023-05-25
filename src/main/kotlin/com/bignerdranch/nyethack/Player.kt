@@ -11,7 +11,9 @@ class Player(_name: String,
         private set(value) {
             field = value.trim()
         }
+
     private val hometown by lazy { selectHometown() }
+    var currentPosition = Coordinate(0, 0)
     private fun selectHometown() = File("data/towns.txt")
         .readLines()
         .shuffled()
