@@ -3,9 +3,9 @@ package com.bignerdranch.nyethack
 import java.io.File
 
 class Player(_name: String,
-        private var healthPoints: Int = 100,
+        override var healthPoints: Int = 100,
         val isBlessed: Boolean,
-        private val isImmortal: Boolean) {
+        private var isImmortal: Boolean) : Fightable{
     var name = _name
         get() = "${field.capitalize()} of $hometown"
         private set(value) {
@@ -40,4 +40,14 @@ class Player(_name: String,
         }
     fun castFireball(numFireballs: Int = 2) =
         println("A glass of Fireball springs into existence. (x$numFireballs)")
+
+    override val diceCount: Int = 3
+    override val diceSides: Int = 6
+
+    override fun attack(opponent: Fightable): Int {
+        val damageDealt = if (isBlessed) damageRoll * 2
+            else damageRoll
+        opponent.healthPoints -= damageDealt
+        return damageDealt
+    }
 }
