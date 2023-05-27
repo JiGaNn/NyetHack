@@ -1,5 +1,6 @@
 package com.bignerdranch.nyethack
 
+import com.bignerdranch.nyethack.extensions.frame
 import kotlin.system.exitProcess
 
 fun main(args: Array<String>) {
@@ -14,7 +15,7 @@ object Game {
         listOf(Room("Long Corridor"), Room("Generic Room"))
     )
     init {
-        println("Welcome, adventurer.")
+        print("Welcome, adventurer".frame(5))
         player.castFireball()
     }
     private class GameInput(arg: String?) {

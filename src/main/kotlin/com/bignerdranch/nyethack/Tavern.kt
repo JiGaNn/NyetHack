@@ -1,4 +1,5 @@
 package com.bignerdranch.nyethack
+import com.bignerdranch.nyethack.extensions.random
 
 import java.io.File
 
@@ -25,8 +26,8 @@ fun main() {
     println()
 
     (0..9).forEach {
-        val first = patronList.shuffled().first()
-        val last = lastName.shuffled().first()
+        val first = patronList.random()
+        val last = lastName.random()
         val name = "$first $last"
         uniquePatrons += name
     }
@@ -66,7 +67,7 @@ fun main() {
 
     var orderCount = 0
     while (orderCount <= 9) {
-        placeOrder(uniquePatrons.shuffled().first(), menuList.shuffled().first())
+        placeOrder(uniquePatrons.random(), menuList.random())
         orderCount++
     }
     displayPatronBalances()
@@ -105,15 +106,15 @@ private fun placeOrder(patronName: String, menuData: String) {
     performPurchase(price.toDouble(), patronName)
 
     val phrase = if (name == "Dragon's Breath")
-        "$patronName exclaims: ${toDragonSpeak("Ah, delicious $name!")}"
+        "$patronName exclaims: ${"Ah, delicious $name!".toDragonSpeak()}"
     else
         "$patronName says: Thanks for the $name."
     println(phrase)
     println()
 }
-private fun toDragonSpeak(phrase: String) =
-    phrase.replace(Regex("[aeiouAEIOU]")) {
-        when(it.value.lowercase()) {
+private fun String.toDragonSpeak() =
+    this.replace(Regex("[aeiouAEIOU]")) {
+        when (it.value.lowercase()) {
             "a" -> "4"
             "e" -> "3"
             "i" -> "1"

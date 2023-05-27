@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="769023cf-31fe-4e97-9cdb-ade28999289b" name="Changes" comment="data class, enum, operator and anonim class">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Creature.kt" afterDir="false" />
+    <list default="true" id="769023cf-31fe-4e97-9cdb-ade28999289b" name="Changes" comment="abstract class, interface. Add monsters in game and fight with those">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/extensions/IterableExt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/extensions/StringExt.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Game.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Room.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Room.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Tavern.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684998940951</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="abstract class, interface. Add monsters in game and fight with those">
+      <created>1685037033242</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685037033242</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,7 +255,8 @@
     <MESSAGE value="Initialize arguments in class, by lazy, lateinit, init, constructor" />
     <MESSAGE value="Nasledovanie, polymorphism and more..&#10;Any Rooms for this game" />
     <MESSAGE value="data class, enum, operator and anonim class" />
-    <option name="LAST_COMMIT_MESSAGE" value="data class, enum, operator and anonim class" />
+    <MESSAGE value="abstract class, interface. Add monsters in game and fight with those" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract class, interface. Add monsters in game and fight with those" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
